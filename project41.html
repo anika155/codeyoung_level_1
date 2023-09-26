@@ -1,0 +1,34 @@
+<!-- CREATE A CAR DRIVING VALIDATOR
+
+ACCORDING TO THE AGE.
+
+age is <= 18 print your not eligible for license
+
+age is >= 18 print your  eligible for license
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head> </head>
+<body>
+<button onclick="cream()"> click me </button>
+<p id="c"> </p>
+<script> 
+function cream () {
+let text;
+
+let person = prompt("Enter your age")
+if (person <= 17) {
+ text = "You're not eligible for license"
+}
+else {
+  text  ="you're eligible for license"
+}
+
+document.getElementById("c").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

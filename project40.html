@@ -1,0 +1,37 @@
+<!--ASK THE STUDENT TO CREATE A MARKS CLASSIFIER.
+
+FOR MARKS SECURED LESS THAN 60% ALERT YOU NEED TO WORK
+
+REALLY HARD
+
+FOR MARKS SECURED ABOVE 80% ALERT MAINTAIN THE CONSISTENCY. -->
+
+<!DOCTYPE html>
+<html>
+<head> </head>
+<body>
+<button onclick="ice()"> CLICK ME </button>
+<p id="a"> </p>
+<script> 
+function ice () {
+let text;
+
+let person = prompt("Please enter your marks")
+if (person <= 80) {
+ text = "You need to work really hard"
+}
+else {
+  text  ="Maintain the consistency"
+}
+
+document.getElementById("a").innerHTML = text;
+}
+
+
+
+</script>
+
+</body>
+</html>
+
+

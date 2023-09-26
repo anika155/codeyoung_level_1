@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+
+<body>
+<!-- create a webpage with button when you click on the button, you will be getting a prompt with question 'Please enter your name' 
+later you have to get a text as "hello"+"anika" "how are you"
+-->
+<h1> Project on events</h1> 
+<button onclick="happy()"> click me</button>
+<p id="demo"></p>
+<script>
+ /* function happy(){
+  let text
+  let a=prompt("Please enter your name")
+
+  if (a =="") {
+  text="Hello"+ a + "How are you today?"
+  }
+  document.getElementById("demo").innerHTML=text
+}*/
+function happy() {
+
+let text;
+
+let person = prompt("Please enter your name:")
+if (person == null || person == "") {
+
+text = "User cancelled the prompt.";
+
+} else {
+
+text = "Hello " + person + "! How are you today?";
+
+}
+
+document.getElementById("demo").innerHTML = text;
+
+}
+
+
+
+
+
+</script>
+</script>
+</body>
+</html>
